@@ -1,6 +1,6 @@
 # Keycloak Membership Authenticator
 
-A simple Keycloak Java Authenticator that checks if the user is a member of one of the provided groups. If not, the authentication flow is stopped, and a custom error message is returned to the user.
+A simple Keycloak Authenticator that checks if the user is a member of one of the provided groups. If not, the authentication flow is stopped, and a custom error message is returned to the user.
 
 The authenticator must be used after the validation step that successfully authenticates the user, allowing Keycloak to execute the context.getUser() method. Otherwise, the flow crashes, returning an unexpected error. The problem is reported in the server logs.
 
