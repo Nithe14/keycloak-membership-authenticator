@@ -16,7 +16,7 @@ Create a subflow for each alternative authentication flow you have, add a new st
 
 Your final flow diagram could resemble the following.
 
-![exmple-flow](./images/flow-exmaple.png)
+![exmple-flow](./images/subflows-example.png)
 
 ## Issues
 This authenticator does not function when the user logs in with an Identity Provider because the changes from PR [12891](https://github.com/keycloak/keycloak/pull/12891) have not yet been implemented in Keycloak.
