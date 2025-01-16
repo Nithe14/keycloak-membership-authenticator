@@ -4,10 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>keycloak-membership-authenticator</artifactId>
     <groupId>org.wcss</groupId>
-    <version>26.0.5</version>
+    <version>26.0.6</version>
     <packaging>jar</packaging>
     <properties>
-        <keycloak.version>26.0.5</keycloak.version>
+        <keycloak.version>26.0.6</keycloak.version>
         <jboss-jaxrs-api_2.1_spec>2.0.1.Final</jboss-jaxrs-api_2.1_spec>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	<maven.compiler.source>21</maven.compiler.source>
